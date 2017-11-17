@@ -1,0 +1,13 @@
+{
+    "production": {
+        "app_function": "app.app",
+        "aws_region": "us-west-1",
+        "profile_name": "default",
+        "project_name": "rhythmhq",
+        "runtime": "python3.6",
+        "s3_bucket": "rhythmhq-zappa",
+	"certificate_arn": "arn:aws:acm:us-east-1:094289642070:certificate/d25913e2-9ee2-45bf-9eed-97326b266edd",
+	"domain": "rhythmhq.live",
+	"route53_enabled": true
+    }
+}
